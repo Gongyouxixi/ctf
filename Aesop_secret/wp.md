@@ -1,0 +1,9 @@
+# 图片感觉没有实际内容
+试试根据图块出现顺序得到数字
+527913864
+ok,我是，伞兵，完全不相关
+# winhex打开
+末尾有一串很像base64的字符串
+U2FsdGVkX19QwGkcgD0fTjZxgijRzQOGbCWALh4sRDec2w6xsY/ux53Vuj/AMZBDJ87qyZL5kAf1fmAH4Oe13Iu435bfRBuZgHpnRjTBn5+xsDHONiR3t0+Oa8yG/tOKJMNUauedvMyN4v4QKiFunw==
+//哎我操，这个为什么是ase加密啊
+用ase解密，密钥是iscc

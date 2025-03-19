@@ -1,0 +1,4 @@
+winhex没问题
+stegsolve无二维码或其他提示
+binwalk无隐藏
+说明可能是宽高爆破
