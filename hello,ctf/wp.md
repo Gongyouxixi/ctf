@@ -1,0 +1,2 @@
+a=bytes.fromhex('437261636b4d654a757374466f7246756e')
+print(a)
