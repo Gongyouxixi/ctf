@@ -1,0 +1,20 @@
+```
+#include <stdio.h>
+int main(){
+    unsigned char aXircjR2twsv3pt[] =
+{
+  0x78, 0x49, 0x72, 0x43, 0x6A, 0x7E, 0x3C, 0x72, 0x7C, 0x32, 
+  0x74, 0x57, 0x73, 0x76, 0x33, 0x50, 0x74, 0x49, 0x7F, 0x7A, 
+  0x6E, 0x64, 0x6B, 0x61
+};
+for(int i = 0; i < sizeof(aXircjR2twsv3pt); i++){
+    aXircjR2twsv3pt[i] = (aXircjR2twsv3pt[i] ^ 6)-1;
+}
+for(int i=sizeof(aXircjR2twsv3pt);i>0;i--){
+    putchar(aXircjR2twsv3pt[i]);
+}
+return 0;
+}
+```
+代码逻辑还是有点难懂了，前面的逆序我看了半天才理解；
+后面的异或和减一还是简单
