@@ -1,6 +1,6 @@
 def custom_base64_decode(encoded: str) -> bytes:
     # 自定义编码表
-    custom_table = "GLp/+Wn7uqX8FQ2JDR1c0M6U53sjBwyxglmrCVdSThAfEOvPHaYZNzo4ktK9iebI"
+    custom_table = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/="
     decode_table = {char: (idx - 24) % 64 for idx, char in enumerate(custom_table)}
     padding = 0
     if len(encoded) % 4 == 0:
@@ -33,6 +33,6 @@ def custom_base64_decode(encoded: str) -> bytes:
         decoded = decoded[:-padding]
     
     return bytes(decoded)
-encoded_str = "AwLdOEVEhIWtajB2CbCWCbTRVsFFC8hirfiXC9gWH9HQayCJVbB8CIF"  # 替换为实际编码后的字符串,请手动删除=,本人代码出来写的有问题
+encoded_str = "e2lfbDB2ZV95b3V9"  # 替换为实际编码后的字符串,请手动删除=,本人代码出来写的有问题
 decoded_data = custom_base64_decode(encoded_str)
 print("Decoded:", decoded_data)
