@@ -7,7 +7,7 @@ bool btea(unsigned int *v, int n, unsigned int *k)
     unsigned int p, q;
     if (n > 1)
     { /* enCoding Part */
-        q = 415 / n + 114;
+        q = 415 / n + 114;//轮次
         while (q-- > 0)
         {
             sum += DELTA;
